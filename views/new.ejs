@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/navbar') %> 
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center aligh-items-center">
+            <h1 class="text-center my-5">New Trip!</h1>
+            <form method="POST">
+                <label for="city_location">City</label>
+                <input type="text" name="city_location" id="city_location">
+                <br>
+                <label for="departure">Departure Date</label>
+                <input type="text" name="departure" id="departure">  
+                <br>
+                <label for="return">Return Date</label>
+                <input type="text" name="return" id="return">  
+                <br>
+                <button type="submit">Add New CEO</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
