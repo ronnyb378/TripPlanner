@@ -1,6 +1,5 @@
 const http = require('http')
 const express = require('express')
-const db = require('./model/trips');
 const trips = require('./model/trips');
 const { title } = require('process');
 
